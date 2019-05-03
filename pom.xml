@@ -466,6 +466,7 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
                                 <version>${ant.version}</version>
                             </additionalDependency>
                         </additionalDependencies>
+                        <useStandardDocletOptions>false</useStandardDocletOptions>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -616,7 +617,7 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
                         <configuration>
                             <rules>
                                 <requireJavaVersion>
-                                    <version>[10,)</version>
+                                    <version>[1,)</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>

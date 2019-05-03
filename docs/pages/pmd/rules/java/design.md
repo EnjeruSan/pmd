@@ -661,7 +661,7 @@ public class Foo {
 |Name|Default Value|Description|Multivalued|
 |----|-------------|-----------|-----------|
 |topscore||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Top score value|no|
-|minimum|1000.0|Minimum reporting threshold|no|
+|minimum|1.0|Minimum reporting threshold|no|
 |sigma||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Sigma value|no|
 
 **Use this rule with the default properties by just referencing it:**
@@ -673,7 +673,7 @@ public class Foo {
 ``` xml
 <rule ref="category/java/design.xml/ExcessiveClassLength">
     <properties>
-        <property name="minimum" value="1000.0" />
+        <property name="minimum" value="1.0" />
     </properties>
 </rule>
 ```
@@ -706,7 +706,7 @@ public class Foo {
 |Name|Default Value|Description|Multivalued|
 |----|-------------|-----------|-----------|
 |topscore||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Top score value|no|
-|minimum|30.0|Minimum reporting threshold|no|
+|minimum|1.0|Minimum reporting threshold|no|
 |sigma||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Sigma value|no|
 
 **Use this rule with the default properties by just referencing it:**
@@ -718,7 +718,7 @@ public class Foo {
 ``` xml
 <rule ref="category/java/design.xml/ExcessiveImports">
     <properties>
-        <property name="minimum" value="30.0" />
+        <property name="minimum" value="1.0" />
     </properties>
 </rule>
 ```
@@ -751,7 +751,7 @@ public void doSomething() {
 |Name|Default Value|Description|Multivalued|
 |----|-------------|-----------|-----------|
 |topscore||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Top score value|no|
-|minimum|100.0|Minimum reporting threshold|no|
+|minimum|1.0|Minimum reporting threshold|no|
 |sigma||<span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  Sigma value|no|
 
 **Use this rule with the default properties by just referencing it:**
@@ -763,7 +763,7 @@ public void doSomething() {
 ``` xml
 <rule ref="category/java/design.xml/ExcessiveMethodLength">
     <properties>
-        <property name="minimum" value="100.0" />
+        <property name="minimum" value="1.0" />
     </properties>
 </rule>
 ```
@@ -1967,7 +1967,7 @@ public class Person {   // this is more manageable
 
 |Name|Default Value|Description|Multivalued|
 |----|-------------|-----------|-----------|
-|maxfields|15|Max allowable fields|no|
+|maxfields|1|Max allowable fields|no|
 
 **Use this rule with the default properties by just referencing it:**
 ``` xml
@@ -1978,7 +1978,7 @@ public class Person {   // this is more manageable
 ``` xml
 <rule ref="category/java/design.xml/TooManyFields">
     <properties>
-        <property name="maxfields" value="15" />
+        <property name="maxfields" value="1" />
     </properties>
 </rule>
 ```
