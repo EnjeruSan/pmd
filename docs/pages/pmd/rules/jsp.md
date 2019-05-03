@@ -44,14 +44,3 @@ folder: pmd/rules
 *   [IframeMissingSrcAttribute](pmd_rules_jsp_security.html#iframemissingsrcattribute): IFrames which are missing a src element can cause security information popups in IE if you are ac...
 *   [NoUnsanitizedJSPExpression](pmd_rules_jsp_security.html#nounsanitizedjspexpression): Avoid using expressions without escaping / sanitizing. This could lead to cross site scripting - ...
 
-## Additional rulesets
-
-*   Basic JSP (`rulesets/jsp/basic.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [DuplicateJspImports](pmd_rules_jsp_codestyle.html#duplicatejspimports), [IframeMissingSrcAttribute](pmd_rules_jsp_security.html#iframemissingsrcattribute), [JspEncoding](pmd_rules_jsp_errorprone.html#jspencoding), [NoClassAttribute](pmd_rules_jsp_bestpractices.html#noclassattribute), [NoHtmlComments](pmd_rules_jsp_bestpractices.html#nohtmlcomments), [NoInlineScript](pmd_rules_jsp_design.html#noinlinescript), [NoInlineStyleInformation](pmd_rules_jsp_design.html#noinlinestyleinformation), [NoJspForward](pmd_rules_jsp_bestpractices.html#nojspforward), [NoLongScripts](pmd_rules_jsp_design.html#nolongscripts), [NoScriptlets](pmd_rules_jsp_design.html#noscriptlets), [NoUnsanitizedJSPExpression](pmd_rules_jsp_security.html#nounsanitizedjspexpression)
-
-

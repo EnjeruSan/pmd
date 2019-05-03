@@ -48,38 +48,3 @@ folder: pmd/rules
 *   [TO_DATEWithoutDateFormat](pmd_rules_plsql_errorprone.html#to_datewithoutdateformat): TO_DATE without date format- use TO_DATE(expression, date-format)
 *   [TO_TIMESTAMPWithoutDateFormat](pmd_rules_plsql_errorprone.html#to_timestampwithoutdateformat): TO_TIMESTAMP without date format- use TO_TIMESTAMP(expression, date-format)
 
-## Additional rulesets
-
-*   Code Size (`rulesets/plsql/codesize.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [CyclomaticComplexity](pmd_rules_plsql_design.html#cyclomaticcomplexity), [ExcessiveMethodLength](pmd_rules_plsql_design.html#excessivemethodlength), [ExcessiveObjectLength](pmd_rules_plsql_design.html#excessiveobjectlength), [ExcessivePackageBodyLength](pmd_rules_plsql_design.html#excessivepackagebodylength), [ExcessivePackageSpecificationLength](pmd_rules_plsql_design.html#excessivepackagespecificationlength), [ExcessiveParameterList](pmd_rules_plsql_design.html#excessiveparameterlist), [ExcessiveTypeLength](pmd_rules_plsql_design.html#excessivetypelength), [NcssMethodCount](pmd_rules_plsql_design.html#ncssmethodcount), [NcssObjectCount](pmd_rules_plsql_design.html#ncssobjectcount), [NPathComplexity](pmd_rules_plsql_design.html#npathcomplexity), [TooManyFields](pmd_rules_plsql_design.html#toomanyfields), [TooManyMethods](pmd_rules_plsql_design.html#toomanymethods)
-
-*   PLSQL DATETIME (`rulesets/plsql/dates.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [TO_DATE_TO_CHAR](pmd_rules_plsql_errorprone.html#to_date_to_char), [TO_DATEWithoutDateFormat](pmd_rules_plsql_errorprone.html#to_datewithoutdateformat), [TO_TIMESTAMPWithoutDateFormat](pmd_rules_plsql_errorprone.html#to_timestampwithoutdateformat)
-
-*   Strict Syntax (`rulesets/plsql/strictsyntax.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [MisplacedPragma](pmd_rules_plsql_codestyle.html#misplacedpragma)
-
-*   Tom Kyte's Despair (`rulesets/plsql/TomKytesDespair.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [TomKytesDespair](pmd_rules_plsql_bestpractices.html#tomkytesdespair)
-
-

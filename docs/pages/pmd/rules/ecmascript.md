@@ -39,38 +39,3 @@ folder: pmd/rules
 *   [EqualComparison](pmd_rules_ecmascript_errorprone.html#equalcomparison): Using == in condition may lead to unexpected results, as the variables are automatically casted t...
 *   [InnaccurateNumericLiteral](pmd_rules_ecmascript_errorprone.html#innaccuratenumericliteral): The numeric literal will have a different value at runtime, which can happen if you provide too m...
 
-## Additional rulesets
-
-*   Basic Ecmascript (`rulesets/ecmascript/basic.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [AssignmentInOperand](pmd_rules_ecmascript_codestyle.html#assignmentinoperand), [AvoidTrailingComma](pmd_rules_ecmascript_errorprone.html#avoidtrailingcomma), [ConsistentReturn](pmd_rules_ecmascript_bestpractices.html#consistentreturn), [EqualComparison](pmd_rules_ecmascript_errorprone.html#equalcomparison), [GlobalVariable](pmd_rules_ecmascript_bestpractices.html#globalvariable), [InnaccurateNumericLiteral](pmd_rules_ecmascript_errorprone.html#innaccuratenumericliteral), [ScopeForInVariable](pmd_rules_ecmascript_bestpractices.html#scopeforinvariable), [UnreachableCode](pmd_rules_ecmascript_codestyle.html#unreachablecode), [UseBaseWithParseInt](pmd_rules_ecmascript_bestpractices.html#usebasewithparseint)
-
-*   Braces (`rulesets/ecmascript/braces.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [ForLoopsMustUseBraces](pmd_rules_ecmascript_codestyle.html#forloopsmustusebraces), [IfElseStmtsMustUseBraces](pmd_rules_ecmascript_codestyle.html#ifelsestmtsmustusebraces), [IfStmtsMustUseBraces](pmd_rules_ecmascript_codestyle.html#ifstmtsmustusebraces), [WhileLoopsMustUseBraces](pmd_rules_ecmascript_codestyle.html#whileloopsmustusebraces)
-
-*   Controversial Ecmascript (`rulesets/ecmascript/controversial.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [AvoidWithStatement](pmd_rules_ecmascript_bestpractices.html#avoidwithstatement)
-
-*   Unnecessary (`rulesets/ecmascript/unnecessary.xml`):
-
-    <span style="border-radius: 0.25em; color: #fff; padding: 0.2em 0.6em 0.3em; display: inline; background-color: #d9534f; font-size: 75%;">Deprecated</span>  This ruleset is for backwards compatibility.
-
-    It contains the following rules:
-
-    [NoElseReturn](pmd_rules_ecmascript_codestyle.html#noelsereturn), [UnnecessaryBlock](pmd_rules_ecmascript_codestyle.html#unnecessaryblock), [UnnecessaryParentheses](pmd_rules_ecmascript_codestyle.html#unnecessaryparentheses)
-
-
