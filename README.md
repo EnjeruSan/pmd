@@ -11,7 +11,7 @@ Salesforce.com Apex, Perl, Swift, Matlab, Python.
 
 ## Source and Documentation
 
-Our latest source of PMD can be found on [GitHub](https://github.com/pmd/pmd). Fork us!
+Source of PMD can be found on [GitHub](https://github.com/pmd/pmd). Fork us!
 
 *   [How to build PMD](BUILDING.md)
 *   [How to contribute to PMD](CONTRIBUTING.md)
