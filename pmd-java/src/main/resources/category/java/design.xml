@@ -1538,6 +1538,33 @@ public class Person {   // this is more manageable
         </example>
     </rule>
 
+    <rule name="ExcessiveMethodCount"
+          since="3.0"
+          message="Number of methods is {0}"
+          class="net.sourceforge.pmd.lang.java.rule.design.ExcessiveMethodCountRule"
+          >
+        <description>
+            Пересоздание правила TooManyMethods на языке Java
+        </description>
+        <priority>3</priority>
+        <example>
+<![CDATA[
+public void foo(String bar) {
+    super.foo(bar);      // why bother overriding?
+}
+
+public String foo() {
+    return super.foo();  // why bother overriding?
+}
+
+@Id
+public Long getId() {
+    return super.getId();  // OK if 'ignoreAnnotations' is false, which is the default behavior
+}
+]]>
+        </example>
+    </rule>
+
     <rule name="TooManyMethods"
           language="java"
           since="4.2"
