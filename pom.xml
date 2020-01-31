@@ -486,7 +486,7 @@ Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code
                         <dependency>
                             <groupId>com.puppycrawl.tools</groupId>
                             <artifactId>checkstyle</artifactId>
-                            <version>8.18</version>
+                            <version>8.29</version>
                         </dependency>
                         <dependency>
                             <groupId>net.sourceforge.pmd</groupId>
